@@ -1,6 +1,6 @@
 version: '2'
 services:
-  Application:
+  applicationdocker:
     image: 'artemor/applicationdocker:docker'
     environment:
       - "PORT:3000"
