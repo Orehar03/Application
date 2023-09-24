@@ -1,6 +1,6 @@
 version: '2'
 services:
-  snake:
+  Application:
     image: 'Orehar03/snake:latest'
     environment:
       - "PORT:3000"
