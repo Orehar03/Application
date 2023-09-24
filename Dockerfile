@@ -1,7 +1,7 @@
 FROM mhart/alpine-node
 
-Copy . /app
+COPY . /app
 
 CMD node /app/app.js
 
-EXPOSE  3000
+EXPOSE 3000
