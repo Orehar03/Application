@@ -1,7 +1,7 @@
 version: '2'
 services:
   Application:
-    image: 'Orehar03/Application:latest'
+    image: 'orehar03/Application:latest'
     environment:
       - "PORT:3000"
     ports:
